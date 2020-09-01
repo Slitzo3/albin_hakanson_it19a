@@ -1,8 +1,8 @@
 let name = "Albin"
-let xd = "xd"
+let text1 = "xd"
 let age = "17"
 
-console.log(`Hej ${name}, Du är ${xd}`)
+console.log(`Hej ${name}, Du är ${text1}`)
 
 if (age >= 18){
     console.log("Du är vuxen")
@@ -12,4 +12,4 @@ if (age >= 18){
 
 //DOM - Document Object Model
 let text = document.querySelector("#text")
-text.innerText = "hej"
+text.innerHTML = `${name} är ${age} år gammal`
