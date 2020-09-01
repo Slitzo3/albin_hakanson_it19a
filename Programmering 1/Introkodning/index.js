@@ -9,3 +9,7 @@ if (age >= 18){
 } else { 
     console.log("DU ÄR ETT BARN")
 }
+
+//DOM - Document Object Model
+let text = document.querySelector("#text")
+text.innerText = "hej"
