@@ -2,9 +2,13 @@ p {
     text-align:center;
 }
 header, nav, section, footer  {
-    border:1px solid black;
+    border:3px solid black;
     background:blue;
     margin:6px;
+}
+
+article {
+  text-align:center;
 }
 
 /* Add a black background color to the top navigation */
@@ -61,3 +65,26 @@ header, nav, section, footer  {
     background-color: #4CAF50;
     color: white;
 }  
+
+#boxmodel {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px; 
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
