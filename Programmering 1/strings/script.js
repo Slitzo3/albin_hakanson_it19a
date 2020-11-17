@@ -31,3 +31,10 @@ console.log(`Bokstav på index 0 är ${bokstav2}`)
 let antal_bokstaver = alfabet.length
 
 console.log(`Antal bokstaver i alfabetet är ${antal_bokstaver}`)
+
+function WordCount(str) { 
+    return str.split(" ").length;
+  }
+  
+  console.log(WordCount("Jag läser IT-programmet på NTI Kronhus i Göteborg"));
+  
