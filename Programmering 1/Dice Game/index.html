@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random</title>
-    <script src="script.js" defer></script>
+    <title>Document</title>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
-    <h1>Dice Game</h1>
+        <h1>Dice game</h1>
+        
+        <div id ="players">
 
-    <div id ="players">
+            <div id = "player1">
+                <h2>Player 1</h2>
+                <!-- figure, a die -->
+                <figure>
+                    <img id="dice_p1_pic" src="" alt="">
+                </figure>
+                <button id="dice_p1">Dice roll</button>
+            </div> <!-- end player 1 -->
 
-        <div id ="player1">
-            <h2>Player 1</h2>
-            <!-- figure, a dice -->
-            <p id="p1_result"></p>
-            <button id="dice_p1">Dice roll</button>
-        </div> <!-- end player 1 -->
-         
-        <div id = "player2">
-            <h2>Player 2</h2>
-            <p id="p2_result"></p>
-            <!-- figure, a dice -->
-            <button id="dice_p2">Dice roll</button>
-        </div> <!-- end player 2 -->
+            <h2 id="win">WINNER</h2>
+            <p id = "result"></p>
+            
+            <div id = "player2">
+                <h2>Player 2</h2>
+                <!-- figure, a die -->
+                <figure>
+                    <img id="dice_p2_pic" src="" alt="">
+                </figure>
+                <button id="dice_p2">Dice roll</button>
+            </div>
 
 
-    </div> <!-- end players -->
+        </div> <!-- end players -->
 
-
+        <button id="buttonCheck">Who wins?</button>
     </div> <!-- end container -->
 </body>
 </html>
